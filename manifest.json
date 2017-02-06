@@ -1,0 +1,28 @@
+{
+   "info": {
+      "name": "season_mod",
+      "version": 3
+   },
+   "default_locale": "en",
+   "server_init_script": "file(set_season_length)",
+   "aliases": {
+      "autumn:trees:oak:small":"file(entities/autumn/trees/oak_tree/small_oak_tree)",
+      "autumn:trees:oak:medium":"file(entities/autumn/trees/oak_tree/medium_oak_tree)",
+      "autumn:plants:silkweed": "file(entities/autumn/plants/silkweed/silkweed)",
+      "winter:trees:oak:small":"file(entities/winter/trees/oak_tree/small_oak_tree)",
+      "winter:plants:berry_bush":"file(entities/winter/plants/berry_bush)"
+   },
+   "mixintos": {
+      "stonehearth:mixins:tree":"file(components/season_component.json)",
+      "stonehearth:plants:berry_bush":"file(components/season_component.json)",
+      "stonehearth:plants:silkweed":"file(components/season_component.json)",
+
+      "stonehearth:trees:oak:small":"file(entities/spring/trees/oak_tree/small_oak_tree)",
+      "stonehearth:trees:oak:medium":"file(entities/spring/trees/oak_tree/medium_oak_tree)",
+      "stonehearth:plants:berry_bush":"file(entities/spring/plants/berry_bush)",
+      "stonehearth:plants:silkweed":"file(entities/spring/plants/silkweed/silkweed)"
+   },
+   "components": {
+      "season":"file(components/season_component.lua)"
+   }
+}

@@ -1,0 +1,42 @@
+{
+   "type": "entity",
+   "mixins": "file(silkweed_ghost.json)",
+   "components": {
+      "model_variants": {
+         "depleted": {
+            "models": [
+               "file(silkweed_fall_harvested.qb)"
+            ]
+         }
+      },
+      "stonehearth:renewable_resource_node": {
+         "category": "harvest",
+         "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
+         "unripe_description": "i18n(stonehearth:entities.plants.silkweed.silkweed.unripe_description)",
+         "resource": "stonehearth:resources:fiber:silkweed_bundle",
+         "renewal_time": "22h"
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(silkweed_iconic.json)",
+         "ghost_form": "file(silkweed_ghost.json)",
+         "placeable_on_ground": true,
+         "hide_undeploy_ui": true
+      }
+   },
+   "entity_data": {
+      "season_mod:season_data": {
+         "current_season":"autumn",
+         "spring":"stonehearth:plants:silkweed"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 1,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      }
+   }
+}

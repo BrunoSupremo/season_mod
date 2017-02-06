@@ -1,0 +1,8 @@
+{
+   "entity_data": {
+      "season_mod:season_data": {
+         "current_season":"spring",
+         "winter":"season_mod:winter:plants:berry_bush"
+      }
+   }
+}
