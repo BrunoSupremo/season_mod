@@ -8,12 +8,9 @@
                {
                   "type": "one_of",
                   "items": [
-                     "file(medium_oak_tree_fall.qb)",
-                     "file(medium_oak_tree_fall_2.qb)",
-                     "file(medium_oak_tree_fall_3.qb)",
-                     "file(medium_oak_tree_autumn.qb)",
-                     "file(medium_oak_tree_autumn_2.qb)",
-                     "file(medium_oak_tree_autumn_3.qb)"
+                     "file(large_oak_tree_autumn.qb)",
+                     "file(large_oak_tree_autumn_2.qb)",
+                     "file(large_oak_tree_autumn_3.qb)"
                   ]
                }
             ]
@@ -21,7 +18,7 @@
       },
       "stonehearth:resource_node": {
          "resource": "stonehearth:resources:wood:oak_log",
-         "durability": 9
+         "durability": 15
       },
       "mob": {
          "model_origin": { "x": -0.5, "y": 0, "z": 0.5 },
@@ -34,16 +31,16 @@
       "destination": {
          "region": [
             {
-               "min": { "x": -2, "y": 0, "z": -2 },
-               "max": { "x": 3, "y": 1, "z": 3 }
+               "min": { "x": -3, "y": 0, "z": -3 },
+               "max": { "x": 4, "y": 1, "z": 4 }
             }
          ]
       },
       "region_collision_shape": {
          "region": [
             {
-               "min": { "x": -2, "y": 0, "z": -2 },
-               "max": { "x": 3, "y": 16, "z": 3 }
+               "min": { "x": -3, "y": 0, "z": -3 },
+               "max": { "x": 4, "y": 24, "z": 4 }
             }
          ]
       }
@@ -51,15 +48,11 @@
    "entity_data": {
       "season_mod:season_data": {
          "current_season":"autumn",
-         "spring":"stonehearth:trees:oak:medium"
-      },
-      "stonehearth:evolve_data": {
-         "next_stage": "season_mod:autumn:trees:oak:large",
-         "evolve_time": "5d"
+         "spring":"stonehearth:trees:oak:large"
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.trees.oak_tree.medium_oak_tree.display_name)",
-         "description": "i18n(stonehearth:entities.trees.oak_tree.medium_oak_tree.description)"
+         "display_name": "i18n(stonehearth:entities.trees.oak_tree.large_oak_tree.display_name)",
+         "description": "i18n(stonehearth:entities.trees.oak_tree.large_oak_tree.description)"
       }
    }
 }
