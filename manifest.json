@@ -27,8 +27,11 @@
       "stonehearth:plants:silkweed":"file(components/season_component.json)",
 
       "stonehearth:boulder:small":"file(entities/spring/boulders/small_boulder)",
-      "stonehearth:boulder:medium":"file(entities/spring/boulders/medium_boulder)",
-      "stonehearth:boulder:large":"file(entities/spring/boulders/large_boulder)",
+      "stonehearth:boulder:medium_1":"file(entities/spring/boulders/medium_boulder/medium_boulder_1)",
+      "stonehearth:boulder:medium_2":"file(entities/spring/boulders/medium_boulder/medium_boulder_2)",
+      "stonehearth:boulder:medium_3":"file(entities/spring/boulders/medium_boulder/medium_boulder_3)",
+      "stonehearth:boulder:large_1":"file(entities/spring/boulders/large_boulder/large_boulder_1)",
+      "stonehearth:boulder:large_2":"file(entities/spring/boulders/large_boulder/large_boulder_2)",
       "stonehearth:plants:berry_bush":"file(entities/spring/plants/berry_bush)",
       "stonehearth:plants:silkweed":"file(entities/spring/plants/silkweed/silkweed)",
       "stonehearth:trees:oak:small":"file(entities/spring/trees/oak_tree/small_oak_tree)",
