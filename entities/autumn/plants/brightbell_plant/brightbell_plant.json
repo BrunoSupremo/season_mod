@@ -1,0 +1,45 @@
+{
+	"type": "entity",
+	"mixins": "file(brightbell_plant_ghost.json)",
+	"components": {
+		"model_variants": {
+			"depleted": {
+				"models": [
+					"file(brightbell_harvested_autumn.qb)"
+				]
+			}
+		},
+		"stonehearth:renewable_resource_node": {
+			"category": "harvest",
+			"harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
+			"unripe_description": "i18n(stonehearth:entities.plants.brightbell_plant.unripe_description)",
+			"resource": "stonehearth:resources:herb:brightbell",
+			"renewal_time": "22h"
+		},
+		"stonehearth:entity_forms": {
+			"iconic_form": "file(brightbell_plant_iconic.json)",
+			"ghost_form": "file(brightbell_plant_ghost.json)",
+			"placeable_on_ground": true,
+			"hide_undeploy_ui": true
+		}
+	},
+	"entity_data": {
+		"season_mod:season_data": {
+			"current_season":"autumn",
+			"spring":"stonehearth:plants:brightbell"
+		},
+		"stonehearth:net_worth": {
+			"value_in_gold": 1,
+			"rarity": "common",
+			"shop_info": {
+				"buyable": false,
+				"sellable": true,
+				"shopkeeper_level": 1,
+				"shopkeeper_type": "caravan"
+			}
+		},
+		"stonehearth:catalog": {
+			"material_tags": "stockpile_plant"
+		}
+	}
+}

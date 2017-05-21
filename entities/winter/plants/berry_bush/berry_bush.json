@@ -58,7 +58,8 @@
    "entity_data": {
       "season_mod:season_data": {
          "current_season":"winter",
-         "spring":"stonehearth:plants:berry_bush"
+         "spring":"stonehearth:plants:berry_bush",
+         "autumn":"season_mod:autumn:plants:berry_bush"
       },
       "stonehearth:net_worth": {
          "value_in_gold": 1,
